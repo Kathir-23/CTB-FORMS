@@ -84,12 +84,12 @@ class _AppLayoutState extends State<AppLayout> {
   static const _auditingItems = [
     NavItem(Icons.restaurant, 'Fssai Services'),
     NavItem(Icons.assignment, 'GST Services'),
-    NavItem(Icons.work, 'Employee & Business Compliance'),
-    NavItem(Icons.gavel, 'Legal Services'),
     NavItem(Icons.business_center, 'Business Registration Services'),
     NavItem(Icons.account_balance, 'Income Tax Services'),
     NavItem(Icons.business, 'Business & Regulatory Registration'),
+    NavItem(Icons.work, 'Employee & Business Compliance'),
     NavItem(Icons.trending_up, 'TDS & Financial Management Services'),
+    NavItem(Icons.gavel, 'Legal Services'),
   ];
 
   @override

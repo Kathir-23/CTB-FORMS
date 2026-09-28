@@ -263,12 +263,12 @@ class _FssaiScreenState extends State<FssaiScreen> {
   Widget _buildContent() {
     if (_selectedNavIndex == 10) return _buildFssaiPage();
     if (_selectedNavIndex == 11) return _buildGstPage();
-    if (_selectedNavIndex == 12) return const EmployeeComplianceScreen();
-    if (_selectedNavIndex == 13) return const LegalServicesScreen();
-    if (_selectedNavIndex == 14) return const BusinessRegistrationScreen();
-    if (_selectedNavIndex == 15) return const IncomeTaxForm();
-    if (_selectedNavIndex == 16) return _buildBusinessRegulatoryPage();
-    if (_selectedNavIndex == 17) return _buildTdsFinancialManagementPage();
+    if (_selectedNavIndex == 12) return const BusinessRegistrationScreen();
+    if (_selectedNavIndex == 13) return const IncomeTaxForm();
+    if (_selectedNavIndex == 14) return _buildBusinessRegulatoryPage();
+    if (_selectedNavIndex == 15) return const EmployeeComplianceScreen();
+    if (_selectedNavIndex == 16) return _buildTdsFinancialManagementPage();
+    if (_selectedNavIndex == 17) return const LegalServicesScreen();
     return const Center(
       child: Text('Not built yet', style: TextStyle(fontSize: 18, color: AppColors.textMuted)),
     );
